@@ -1,17 +1,22 @@
 cask "font-cascadia-mono" do
-  version "2102.25"
-  sha256 "a64e8834f06ec9acca4a5307cb6cf35922021d4fd0ca19096f8bf6a3e2515ad3"
+  version "2106.17"
+  sha256 "22c030fec5e5c516580fd6e24b385c935baae2f6c110024aeba20240d533a68a"
 
   url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/CascadiaCode-#{version}.zip"
-  appcast "https://github.com/microsoft/cascadia-code/releases.atom"
   name "Cascadia Mono"
   desc "Version of Cascadia Code without ligatures"
   homepage "https://github.com/microsoft/cascadia-code"
 
   font "ttf/static/CascadiaMono-Bold.ttf"
+  font "ttf/static/CascadiaMono-BoldItalic.ttf"
   font "ttf/static/CascadiaMono-ExtraLight.ttf"
+  font "ttf/static/CascadiaMono-ExtraLightItalic.ttf"
+  font "ttf/static/CascadiaMono-Italic.ttf"
   font "ttf/static/CascadiaMono-Light.ttf"
+  font "ttf/static/CascadiaMono-LightItalic.ttf"
   font "ttf/static/CascadiaMono-Regular.ttf"
   font "ttf/static/CascadiaMono-SemiBold.ttf"
+  font "ttf/static/CascadiaMono-SemiBoldItalic.ttf"
   font "ttf/static/CascadiaMono-SemiLight.ttf"
+  font "ttf/static/CascadiaMono-SemiLightItalic.ttf"
 end
